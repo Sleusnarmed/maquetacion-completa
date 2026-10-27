@@ -1,0 +1,262 @@
+:root {
+  --text-color-primary: #fff;
+  --text-color-secondary: #000;
+  --color-primary: #ff3281;
+  --bg-accent-secondary: #fff9f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  width: 1500px;
+  margin: auto;
+}
+
+/* Las clases de arriba son "globales", pueden estar en varios contenedores,
+por eso mismo una conotación diferente en español*/
+.texto-blanco {
+  color: var(--text-color-primary);
+}
+
+.texto-negro {
+  color: var(--text-color-secondary);
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+.hr {
+  background-color: var(--color-primary);
+  height: 15px;
+  border: none;
+}
+
+.navbar {
+  margin: 10px;
+  padding: 0 150px;
+  background-color: var(--bg-accent-secondary);
+}
+
+.logo-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.logo-container img {
+  height: 150px;
+  width: 200px;
+}
+
+.socials-container {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+.socials-container img {
+  height: 45px;
+  width: 45px;
+  margin: 0 20px;
+}
+
+.menu-container {
+  width: 100%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.menu-container a {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 8%;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 140px;
+  width: 100%;
+  border: none;
+  margin: 30px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-section h3 {
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.btns-container {
+  margin: 80px 0px;
+}
+
+.btn-left,
+.btn-right {
+  padding: 20px 40px;
+  margin: 0 40px;
+  font-size: 1rem;
+}
+
+.btn-left {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.btn-right {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+}
+
+.products-desc {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 50px;
+}
+
+.products-desc p {
+  line-height: 50px;
+}
+
+.products-image {
+  display: inline-block;
+  width: 49%;
+  padding: 40px;
+  text-align: center;
+}
+
+.products-desc h2,
+.hiring h2 {
+  font-size: 1.8rem;
+}
+
+.hiring {
+  background-color: var(--bg-accent-secondary);
+  padding: 20px 40px;
+}
+.hiring-image_container{
+  width: 47%;
+  display: inline-block;
+}
+
+.hiring-image_container img{
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.hiring-desc{
+  display: inline-block;
+  width: 50%;
+  vertical-align: bottom;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.hiring-desc p{
+  margin-bottom: 20px;
+  color: #616161;
+}
+
+.hiring-desc h4{
+  font-size: 1.2rem;
+}
+
+.promotion-site{
+  padding: 20px;
+}
+
+.promotion-site h3{
+  font-size: 2rem;
+}
+
+
+.promotion-site_noti, .promotion-site_instalations{
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 30px;
+  width: 48%;
+  vertical-align: top;
+}
+.promotion-site_noti p{
+  margin-bottom: 20px;
+}
+.form-container{
+  padding: 10px;
+  border: 3px solid var(--color-primary);
+}
+
+.form input{
+  width: 95%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.form input:focus{
+  background-color: #ececec;
+}
+
+.form button{
+  width: 30%;
+  background-color: black;
+  border: none;
+  padding: 20px;
+}
+
+.rosado{
+  color: var(--color-primary);
+}
+
+.promotion-site_instalations iframe{
+  width: 100%;
+  height: 40vh;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+
+.footer{
+  background-color: var(--bg-accent-secondary);
+  padding: 20px 40px;
+}
+
+.footer-logo, .footer-text{
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.footer-logo{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.footer-text{
+  text-align: right;
+  margin: 50px 0;
+  font-size: 1.3rem;
+}
